@@ -17,5 +17,14 @@ class Main {
         System.out.println("Using float sum " + sum(2f, 3f));
 
         System.out.println("Using double sum " + sum(2f, 3f));
+
+        int[] array = new int[] = {1, 2, 3, 4, 5};
+
+        int s = 0;
+        for(int i = 0; i < array.length; i ++) {
+            s = sum(s, array[i]);
+        }
+
+        System.out.println("Total sum using int sum method is ", s);
     }
 }
