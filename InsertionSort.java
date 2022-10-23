@@ -1,9 +1,9 @@
 public class InsertionSort {
 	
-    void sortArray(int arr[])
+    void sort(int arr[])
     {
-        int n = arr.length;
-        for (int i = 1; i < n; ++i) {
+        int k = arr.length;
+        for (int i = 1; i < k; ++i) {
             int key = arr[i];
             int j = i - 1;
 
