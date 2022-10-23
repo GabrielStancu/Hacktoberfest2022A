@@ -1,5 +1,6 @@
 public class InsertionSort {
-    void sort(int arr[])
+	
+    void sortArray(int arr[])
     {
         int n = arr.length;
         for (int i = 1; i < n; ++i) {
